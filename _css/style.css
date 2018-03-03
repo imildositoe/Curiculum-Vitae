@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+body {
+    background-color: #dddddd;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+div#interface {
+    background-color: #ffffff;
+    margin: -0.8% 3% auto 3%;
+    /*box-shadow: 0 0 30px rgba(49, 255, 100, .5);*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+footer#rodape {
+    border-top: solid 1px #c5c3ff;
+    text-align: center;
+    font-family: "Bubblegum Sans", sans-serif;
+    color: #ffffff;
+    font-weight: 100;
+    padding-top: 10px;
+    background: #3d4246;
+    clear: both;
+}
+
+footer#rodape img {
+    width: 35px;
+    height: 30px;
+}
+
+div#foto img {
+    height: 180px;
+    width: 150px;
+    margin-left: 45%;
+    margin-top: 5%;
+    border: 6px solid #ffffff;
+}
+
+div#foto {
+    height: 320px;
+    background: #bfe1ff;
+}
+
+div#dados section#seccao-dados p.dados span {
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+div#dados section#seccao-dados p.dados {
+    font-size: 11pt;
+    margin-top: 25px;
+}
+
+div#dados section#seccao-dados {
+    float: left;
+    width: 45%;
+}
+
+div#dados aside#aside-dados {
+    float: right;
+    width: 55%;
+    margin-top: 88px;
+}
+
+div#macbook {
+    border-top: dotted 1px #c5c3ff;
+    padding-top: 3%;
+    clear: both;
+}
+
+div#interface div#macbook img#mac {
+    border: 5px solid #ffffff;
+    width: 95%;
+    box-shadow: 0 0 30px rgba(49, 255, 100, .5);
+    margin-left: 2.5%;
+    height: 400px;
+}
+
+div#interface div#macbook img#emoji {
+    width: 3%;
+    height:3%;
+    margin-bottom: -0.8%;
+}
+
+table#table-dados {
+    border: solid 4px #c5c3ff;
+    border-radius: 50px;
+}
+
+table#table-dados td {
+    padding: 20px 8px 20px 8px;
+    border: dotted 1px #ff99c6;
+}
+
+table#table-dados tr {
+    background-color: #bfe1ff;
+    border: dotted 1px #ff99c6;
+}
+
+table#table-dados tr.r {
+    background-color: #f0c7ff;
+}
+
+div#progress {
+    margin: 5% auto auto 3%;
+}
+
+div#progress section#seccao-progress {
+    width: 45%;
+    float: left;
+}
+
+div#progress #seccao-progress {
+    width: 55%;
+    float: right;
+}
